@@ -1,0 +1,143 @@
+﻿body {
+	background-image: url('../images/wall.jpg');
+}
+
+.wrapper {
+	height: 1700px;
+	width: 80%;
+	font-size: 88%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	margin: 0 auto;
+}
+header img{
+	width: 30%;
+	height: auto;
+	margin: 2% 0; 
+}
+nav ul li img {
+	clear: both;
+	float: left;
+	width: 60%;
+}
+nav ul li img:hover {
+	width: 65%;
+	cursor: pointer;
+}
+nav {
+	background-color: #068587;
+	height: 40px;
+	border-radius: 5px;
+}
+nav ul {
+	list-style: none;
+	margin:0 auto;
+}
+nav ul li{
+	float: left;
+	display: inline;
+}
+nav a:link, nav a:visited {
+<<<<<<< HEAD
+	color: black;
+=======
+	color: white;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+	display: inline-block;
+	padding: 10px 25px;
+	height: 25px;
+	
+}
+nav a:hover, nav a:active,
+nav .active a:link, nav .active a:visited {
+	background-color: #9e4242;
+	color: white;
+	border-radius: 5px;
+}
+nav ul li a {
+	border-radius: 5px;
+}
+div.mainContent {
+    float: right;
+	border-radius: 5px;
+    width: 74%;
+}
+
+div.infoTeam {
+	display: inline-block;
+	width: 190px;
+	height: 150px;
+	margin-top: 10px;
+	color: white;
+}
+
+div.infoTeam  img {
+	width: 150px;
+	height: 150px;
+	margin-left: 30px;
+}
+
+div.infoTeam p {
+	margin-left: 10px;
+	text-align: center;
+}
+
+aside{
+    float: left;
+	width: 25%;
+	height: 800px;
+}
+.bottomContent {
+	background-color: white;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2px;
+}
+.topSideBar {
+	background-color: white;
+	margin-left: 3%;
+	border-radius: 5px;
+	padding: 2% 3%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.topSideBar img {
+	width: 96px;
+	height: 100px;
+	border-radius: 5px;
+}
+.middleSideBar {
+	background-color: white;
+	margin:0 0 2% 3%;
+	border-radius: 5px;
+	padding: 2% 3%;
+}
+.bottomSideBar {
+	background-color: white;
+	margin:0 0 2% 3%;
+	border-radius: 5px;
+	padding: 2% 3%;
+}
+footer{
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	background-color: #068587;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+footer p {
+	width: 92%;
+	margin: 2% auto;
+	color: white;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #9e4242;
+}
+a:hover, a:active {
+	background-color: #9e4242;
+	color: white
+}

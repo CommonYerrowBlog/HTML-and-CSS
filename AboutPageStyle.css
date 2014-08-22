@@ -1,0 +1,317 @@
+﻿body {
+    background-color: silver;
+}
+
+.wrapper {
+    height: 1090px;
+    width: 80%;
+    margin: 0px auto;
+    min-width: 330px;
+}
+
+nav ul li img {
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #EFECCA;
+    height: 30px;
+    margin: 0 0 0 0;
+    border-radius: 10px 10px 0 0;   
+}
+    nav p{
+        margin: 0 0 0 20px;
+        color: white;
+        font-size: 30px;
+        font-style: italic;
+    }
+    nav ul {
+        float: right;
+        list-style: none;
+        margin: 0%;
+        line-height: 25px;
+        background-color: #EFECCA;
+        border-radius: 5px;
+    }
+
+        nav ul li {
+            display: inline;
+        }
+
+    nav a:link, nav a:visited {
+        color: black;
+        display: inline-block;
+        padding: 0 10px 0 10px;
+        height: 25px;
+    }
+
+    nav a:hover, nav a:active,
+    nav .active a:link, nav .active a:visited {
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+    }
+
+    nav ul li a {
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+.logo {
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+}
+
+    .logo img {
+        width: 100%;
+        height: 200px;
+        border-radius: 0 0 20px 20px;
+    }
+
+main {
+    border-radius: 5px;
+    width: 100%;
+}
+    
+    main .item {
+        height: 550px;
+    }
+
+    main .item img{
+        width: 25%;
+        float: left;
+    }
+
+    main h2 {
+        color: white;
+        text-align: center;
+    }
+
+    main div {
+        color: white;
+        text-align: center;
+    }
+
+    main .Metters{
+        width: 30%;
+        margin-left: 5%;
+        height: 300px;
+        float: left;
+    }
+
+    .firstMetter{
+        width: 70%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 3%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    .secondMetter{
+        width: 50%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    .thirdMetter{
+        width: 53%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    .fourthMetter{
+        width: 43%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    .fifthMetter{
+        width: 35%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    main hr {
+        width: 50%;
+    }
+
+    .Social{
+        width: 30%;
+        margin-right: 5%;
+        height: 300px;
+        float: right;
+    }
+
+    #nextButton{
+        position: relative;
+        top: 320px;
+        float: right;
+    }
+
+    #prevButton{
+        position: relative;
+        top: 320px;
+    }
+
+footer {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    background-color: #EFECCA;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    float: left;
+}
+
+    footer .FooterProvide {
+        width: 22%;
+        margin: 0 0 0 5%;
+        float: left;
+    }
+
+    footer h2 {
+        color: #AFAFAF;
+    }
+
+    footer ul {
+        width: 70%;
+        font-size: 20px;
+    }
+
+        footer ul li {
+            color: #AFAFAF;
+            list-style-image: url("../images/tikche.png");
+            font-size: 16px;
+        }
+
+    footer .menu ul li a {
+        color: #AFAFAF;
+        list-style-image: url("../images/tikche.png");
+        font-size: 16px;
+    }
+
+.menu {
+    width: 22%;
+    height: 265px;
+    float: left;
+}
+
+.SocialDiv {
+    width: 45%;
+    margin: 0 5% 0 0;
+    height: 265px;
+    float: right;
+    text-align: center;
+}
+
+    .SocialDiv img {
+        width: 15%;
+    }
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    nav img{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 970px) {
+
+    nav{
+        height: 100px;    
+        text-align: center;
+    }
+
+    nav a{
+        width: 16%;
+        text-align: center;
+    }
+
+    .firstArticle, .secondArticle, .thirdArticle, .fourthArticle {
+        margin: 1% 0 0 0.3%;
+    }
+
+}
+
+@media only screen and (max-width: 817px) {
+
+    nav{
+        height: 150px;
+        text-align: center;
+    }
+
+    section{
+        width: 100%;
+        height: 380px;
+        text-align: center;
+    }
+
+    .firstArticle , .secondArticle , .thirdArticle , .fourthArticle {
+        width: 45%;
+        border-radius: 15px;
+    }
+
+    aside{
+        width: 100%;
+        margin-left: -3px;
+        height: 450px;
+    }
+
+    .topSideBar , .middleSideBar , .bottomSideBar {
+        border: 1px solid red;
+        width: 90%;
+    }
+
+    aside .topSideBar img{
+        width: 24%;
+    }
+
+    footer{
+        margin-bottom: 2%;
+        height: 350px;
+    }
+
+    footer .menu{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 461px) {
+
+    nav {
+        height: 200px;
+    }
+
+    aside{
+        height: 550px;
+    }
+
+    aside .topSideBar img{
+        width: 44%;
+    }
+
+    footer .SocialDiv img{
+        width: 35px;
+    }
+}

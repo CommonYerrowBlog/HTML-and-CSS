@@ -1,0 +1,709 @@
+<<<<<<< HEAD
+=======
+.clearFix{
+    clear:both;
+}
+
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+body {
+    background-color: black;
+}
+
+.wrapper {
+    height: 1218px;
+    width: 80%;
+    margin: 0px auto;
+    min-width: 330px;
+}
+
+nav {
+    background-color: black;
+<<<<<<< HEAD
+    height: 50px;
+=======
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+    margin: 0 0 0 0;
+    font-size: 25px;
+}
+
+    nav ul {
+        text-align: center;
+        list-style: none;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+
+        nav ul li {
+            display: inline;
+        }
+
+    nav a:link, nav a:visited {
+        color: white;
+        display: inline-block;
+        padding: 10px 25px;
+        height: 25px;
+    }
+
+    nav a:hover, nav a:active,
+    nav .active a:link, nav .active a:visited {
+        background-color: #ECE04E;
+        color: black;
+        border-radius: 5px;
+    }
+
+    nav ul li a {
+        border-radius: 5px;
+    }
+
+.logo {
+    width: 100%;
+<<<<<<< HEAD
+    height: 250px;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+=======
+    margin-top: 0px;
+    text-align: center;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+}
+
+    .logo img {
+        border-radius: 0 0 10px 10px;
+        margin-top: 2%;
+    }
+
+footer {
+    width: 100%;
+<<<<<<< HEAD
+    height: 300px;
+=======
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+    border-radius: 10px 10px 0 0;
+    background-color: #232323;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    float: left;
+}
+
+    footer .FooterProvide {
+        width: 22%;
+        margin: 0 0 0 5%;
+        float: left;
+    }
+
+    footer h2 {
+        color: #AFAFAF;
+    }
+
+    footer ul {
+        width: 70%;
+        font-size: 20px;
+    }
+
+        footer ul li {
+            color: #AFAFAF;
+            list-style-image: url("../images/tikche.png");
+            font-size: 16px;
+        }
+
+    footer .menu ul li a {
+        color: #AFAFAF;
+        list-style-image: url("../images/tikche.png");
+        font-size: 16px;
+    }
+
+.menu {
+    width: 22%;
+<<<<<<< HEAD
+    height: 265px;
+=======
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+    float: left;
+}
+
+.SocialDiv {
+<<<<<<< HEAD
+    width: 45%;
+    margin: 0 5% 0 0;
+    height: 265px;
+=======
+    margin: 0 5% 0 0;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+    float: right;
+    text-align: center;
+}
+
+    .SocialDiv img {
+        width: 15%;
+    }
+
+a {
+    text-decoration: none;
+}
+
+/*Index Page*/
+
+#indexContent main {
+<<<<<<< HEAD
+    float: right;
+    border-radius: 5px;
+    width: 67%;
+=======
+    float: left;
+    border-radius: 5px;
+    width: 65%;
+    margin-left: 2%;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+}
+
+#indexContent #content {
+    width: 100%;
+    border-radius: 5px;
+    padding: 2% 2%;
+    margin: 1% 2% 0 0;
+    width: 95%;
+    height: 400px;
+    border: 1px solid red;
+}
+
+    #indexContent #content img {
+        width: 100%;
+        height: 100%;
+    }
+
+#indexContent aside {
+    float: left;
+    width: 25%;
+    height: 630px;
+    margin-left: 4%;
+}
+
+    #indexContent aside h2 {
+        margin-top: 1%;
+        color: white;
+    }
+
+ .topSideBar {
+    color: white;
+    width: 90%;
+    background-color: #D21C13;
+    margin-left: 3%;
+    margin-top: -1%;
+    padding: 2% 3%;
+    border-top: 0px solid #161107;
+    background: rgba(210,28,19,1);
+    background: -moz-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210,28,19,1)), color-stop(20%, rgba(210,28,19,1)), color-stop(86%, rgba(213,55,27,1)), color-stop(98%, rgba(214,60,29,1)), color-stop(100%, rgba(214,60,29,1)));
+    background: -webkit-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
+    background: -o-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
+    background: -ms-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
+    background: linear-gradient(to bottom, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d21c13', endColorstr='#d63c1d', GradientType=0 );
+}
+
+    .topSideBar img {
+        width: 45%;
+        height: 100px;
+        border-radius: 5px;
+    }
+
+ .middleSideBar {
+    width: 90%;
+    background-color: #D21C13;
+    margin: 0 0 0 3%;
+    padding: 2% 3%;
+    background: rgba(214,61,29,1);
+    background: -moz-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(214,61,29,1)), color-stop(7%, rgba(214,61,29,1)), color-stop(68%, rgba(214,64,30,1)), color-stop(100%, rgba(228,164,60,1)));
+    background: -webkit-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
+    background: -o-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
+    background: -ms-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
+    background: linear-gradient(to bottom, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d63d1d', endColorstr='#e4a43c', GradientType=0 );
+}
+
+ .bottomSideBar {
+    width: 90%;
+    background-color: #D21C13;
+    margin: 0 0 0 3%;
+    border-radius: 0 0 10px 10px;
+    padding: 2% 3%;
+    background: rgba(228,164,60,1);
+    background: -moz-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,164,60,1)), color-stop(10%, rgba(228,164,60,1)), color-stop(92%, rgba(236,224,78,1)), color-stop(100%, rgba(236,224,78,1)));
+    background: -webkit-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
+    background: -o-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
+    background: -ms-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
+    background: linear-gradient(to bottom, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4a43c', endColorstr='#ece04e', GradientType=0 );
+}
+
+
+#indexContent section {
+    margin-top: 1%;
+<<<<<<< HEAD
+    float: right;
+    display: inline-block;
+    width: 67%;
+    border-radius: 5px;
+    height: 190px;
+    color: green;
+}
+
+#indexContent .firstArticle {
+    width: 22.4%;
+    height: 170px;
+    background-color: white;
+    display: inline-block;
+    margin: 1% 0 0 1%;
+    cursor: pointer;
+}
+
+    #indexContent .firstArticle img {
+        width: 100%;
+        height: 100%;
+    }
+
+#indexContent .secondArticle img {
+    width: 100%;
+    height: 100%;
+}
+
+#indexContent .thirdArticle img {
+    width: 100%;
+    height: 100%;
+}
+
+#indexContent .fourthArticle img {
+    width: 100%;
+    height: 100%;
+}
+
+#indexContent .secondArticle {
+    width: 22.4%;
+    height: 170px;
+    background-color: white;
+    display: inline-block;
+    margin: 1% 0 0 1.5%;
+    cursor: pointer;
+}
+
+#indexContent .thirdArticle {
+    width: 22.4%;
+    height: 170px;
+    background-color: white;
+    display: inline-block;
+    margin: 1% 2% 0 1.5%;
+    cursor: pointer;
+}
+
+#indexContent .fourthArticle {
+    width: 22.4%;
+    height: 170px;
+    background-color: white;
+    display: inline-block;
+    margin: 1% 2% 0 0;
+    cursor: pointer;
+}
+
+/*bookOfMagic page*/
+
+#bookOfMagicContent main {
+    border: 1px solid red;
+    float: left;
+=======
+    display: inline-block;
+    width: 90%;
+    border-radius: 5px;
+    color: green;
+}
+
+#indexContent .firstArticle ,
+#indexContent .secondArticle ,
+#indexContent .thirdArticle ,
+#indexContent .fourthArticle{
+    width: 24%;
+    //height: 150px;
+    display: inline-block;
+    //margin: 1% 0 0 1%;
+    cursor: pointer;
+}
+
+    .firstArticle img , 
+    .secondArticle img , 
+    .thirdArticle img ,
+    .fourthArticle img  {
+        width: 100%;
+        height: auto;
+    }
+/*bookOfMagic page*/
+
+#bookOfMagicContent main {
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+
+#bookOfMagicContent section {
+    margin-top: 1%;
+<<<<<<< HEAD
+    float: right;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    height: 400px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+=======
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding-bottom: 30px;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+}
+
+#bookOfMagicContent .comment {
+    border-radius: 15px;
+    width: 90%;
+    padding: 10px;
+<<<<<<< HEAD
+    margin: 0px auto;
+=======
+    margin: 5px auto;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+    background-color: #F5F4F2;
+}
+
+#bookOfMagicContent .user {
+    margin: 1% 0 0 2%;
+    width: 80%;
+    color: red;
+}
+
+#bookOfMagicContent .says {
+    margin-top: 1%;
+    width: 20%;
+    color: #232323;
+}
+
+#bookOfMagicContent .commentche {
+    margin: 1% 0 0 2%;
+    width: 90%;
+    height: 60%;
+    color: #232323;
+}
+
+#bookOfMagicContent #content {
+    width: 100%;
+    border-radius: 5px;
+<<<<<<< HEAD
+    padding: 2% 2%;
+=======
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+    margin: 1% 2% 0 0;
+    width: 95%;
+    height: 400px;
+}
+
+#bookOfMagicContent form {
+<<<<<<< HEAD
+    width: 30%;
+    margin: 2% 0 0 35%;
+=======
+    width: 450px;
+    margin: 0px auto;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+    text-align: center;
+}
+
+#bookOfMagicContent #username {
+<<<<<<< HEAD
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#bookOfMagicContent #commentText {
+    width: 100%;
+    height: 70px;
+    margin-top: 10%;
+}
+
+#bookOfMagicContent form #subButton {
+    margin-top: 9%;
+=======
+    width: 450px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#bookOfMagicContent #commentText {
+    width: 450px;
+    height: 70px;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+#bookOfMagicContent form #subButton {
+    margin-top: 35px;
+    width: 100px;
+    font-size: 20px;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+}
+
+
+/*fun page*/
+#funContent body, div, ul, li, span, article, section, header, main, footer{
+    margin: 0px;
+    padding: 0px;
+}
+
+#funContent img{
+    max-width: 100%;
+}
+
+#funContent .helper{
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#funContent .funImg{
+    vertical-align: middle;
+}
+
+#funContent .leftArrow, .rightArrow{
+    font-size: 24px;
+    color: red;
+    position: relative;
+    vertical-align: middle;
+}
+#funContent .leftArrow{
+    margin-right: 5%;
+}
+#funContent .righArrow{
+    margin-left: 5%;
+}
+#funContent .left, .right, .image{
+    display: inline-block;
+    vertical-align: middle;
+}
+#funContent main {
+    float: right;
+    border-radius: 5px;
+    width: 67%;
+}
+
+#funContent #content {
+    width: 100%;
+    border-radius: 5px;
+    padding: 2% 2%;
+    margin: 1% 2% 0 0;
+    width: 95%;
+    height: 400px;
+}
+
+  #funContent #content img{
+        width: 100%;
+        height: 100%;
+    }
+
+#funContent aside {
+    float: left;
+    width: 25%;
+    height: 630px;
+    margin-left: 4%;
+}
+
+aside h2{
+    margin-top: 1%;
+    color: white;
+}
+
+#funContent section {
+    margin-top: 1%;
+    float: right;
+    display: block;
+    width: 67%;
+    border-radius: 5px;
+    height: 400px;
+    color: green;
+}
+
+#funContent iframe{
+    width: 100%;
+    height: 400px;
+}
+<<<<<<< HEAD
+=======
+#funContent .big{
+
+}
+
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
+
+/*about page*/
+#aboutContent main {
+    border-radius: 5px;
+    width: 100%;
+}
+    
+  #aboutContent main .item {
+        height: 550px;
+    }
+
+    #aboutContent main .item img{
+        width: 25%;
+        float: left;
+    }
+
+    #aboutContent main h2 {
+        color: white;
+        text-align: center;
+    }
+
+    #aboutContent main div {
+        color: white;
+        text-align: center;
+    }
+
+    #aboutContent main .Metters{
+        width: 30%;
+        margin-left: 5%;
+        height: 300px;
+        float: left;
+    }
+
+    #aboutContent .firstMetter{
+        width: 70%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 3%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    #aboutContent .secondMetter{
+        width: 50%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    #aboutContent .thirdMetter{
+        width: 53%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    #aboutContent .fourthMetter{
+        width: 43%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    #aboutContent .fifthMetter{
+        width: 35%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    #aboutContent main hr {
+        width: 50%;
+    }
+
+    #aboutContent .Social{
+        width: 30%;
+        margin-right: 5%;
+        height: 300px;
+        float: right;
+    }
+
+    #aboutContent #nextButton{
+        position: relative;
+        top: 320px;
+        float: right;
+    }
+
+    #aboutContent #prevButton{
+        position: relative;
+        top: 320px;
+<<<<<<< HEAD
+    }
+=======
+    }
+
+
+@media only screen and (max-width: 1050px){
+    .FooterProvide , .menu {
+        display: none;
+    }
+    .SocialDiv{
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    nav ul li{
+        display: block;
+        margin-top: 5px;
+    }
+    nav ul li a{
+        width: 90%;
+    }
+    #bookOfMagicContent #content{
+        width: 100%;
+    }
+
+    #bookOfMagicContent form ,
+    #bookOfMagicContent #username,
+    #bookOfMagicContent #commentText,
+    #bookOfMagicContent #subButton{
+        width:95%;
+    }
+
+}
+
+@media only screen and (max-width: 710px) {
+    #indexContent .firstArticle,
+    #indexContent .secondArticle,
+    #indexContent .thirdArticle,
+    #indexContent .fourthArticle {
+        width: 45%;
+        margin-left: 2px;
+    }
+    #indexContent aside ,
+    #funContent aside{
+        display: none;
+    }
+    
+    #funContent main,
+    #funContent section{
+        width: 95%;
+    }
+
+    #indexContent main{
+        width: 95%;
+
+    }
+}
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
