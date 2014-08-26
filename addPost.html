@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Post</title>
+    <link href="addPost.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="form">
+        <form method="post">
+            <label class="title" for="title"> Title </label>
+            <input class="input" type="text" name="postname" required="true" pattern="[A-Za-z0-9А-Яа-я ]+" value="<?php if(isset($_POST['post_name'])) echo $_POST['post_name']; ?>"> <br />
+            <label class="content" for="title"> Contents </label>
+            <textarea class="text" name="posttext" rows="15" cols="50" required="true"><?php if(isset($_POST['post_text'])) echo $_POST['post_text']; ?></textarea> <br />
+            <label class="category" for="category"> Category </label>
+            <select name="category">
+                <?php
+                foreach (get_categories($connection) as $category) {
+                ?>
+                <option value="<?= $category['cat_id']; ?>"><?= $category['cat_name']; ?></option>
+                <?php
+                }
+                ?>
+            </select>
+            <input class="submit" type="submit" value="Add Post">
+        </form>
+    </div>
+
+</body>
+</html>
