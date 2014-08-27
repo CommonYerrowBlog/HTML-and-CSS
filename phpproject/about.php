@@ -85,7 +85,7 @@ include_once 'html/include/heather.php';
                         <div class="secondMetter">HTML 90%</div>
                         <div class="thirdMetter">JAVA 92%</div>
                         <div class="fourthMetter">C# 80%</div>
-                        <div class="fifthMetter">JavaScript 1%</div>
+                        <div class="fifthMetter">JavaScript 90%</div>
                     </div>
                     <div class="Social">
                         <h2>SOCIALS</h2>

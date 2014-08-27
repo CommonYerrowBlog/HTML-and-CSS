@@ -40,6 +40,18 @@ header nav ul li {
     border-right: 1px solid #303133;
 }
 
+header nav ul li:hover, .second-navigate ul li:hover{
+    background-color: orangered;
+}
+
+header nav ul li:last-child:hover {
+    background-color: rgba(0,0,0,0.0);
+}
+
+header nav ul li a:hover, .second-navigate ul li a:hover{
+    color: white;
+}
+
 header nav ul li:last-child{
     display: block;
     width: 135px;
@@ -49,6 +61,8 @@ header nav ul li:last-child{
 header nav ul li input {
     border-radius: 10px;
     color: gray;
+    border: 0;
+    box-shadow: 0 0 2px 3px white;
 }
 
 header nav ul li a {

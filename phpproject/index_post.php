@@ -27,7 +27,6 @@ $posts = (isset($_GET['post_id']))? get_post($connection, $_GET['post_id']):get_
                     <div id="post_nav">
                         <a href="comments.php?id=<?= $post['post_id'];?>" id="comment_link">Comment</a>
                         <a href="delete_post.php?id=<?= $post['post_id'];?>" id="delete_link">Delete Post</a>
-                        <a href="edit_post.php?id=<?= $post['post_id'];?>" id="edit_link">Edit Post</a>
                     </div>
                 </div>
             </div>
